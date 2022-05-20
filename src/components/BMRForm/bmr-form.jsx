@@ -18,17 +18,17 @@ const BMRForm = ({ setBMRData }) => {
       }}
     >
       <label>
-        Weight:
+        Weight(kg):
         <input
-          type="text"
+          type="number"
           name="weight"
           onChange={(e) => setWeight(e.target.value)}
         />
       </label>
       <label>
-        Height:
+        Height(cm):
         <input
-          type="text"
+          type="number"
           name="height"
           onChange={(e) => setHeight(e.target.value)}
         />
@@ -36,7 +36,7 @@ const BMRForm = ({ setBMRData }) => {
       <label>
         Age:
         <input
-          type="text"
+          type="number"
           name="age"
           onChange={(e) => setAge(e.target.value)}
         />
